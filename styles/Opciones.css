@@ -1,0 +1,317 @@
+@media screen and (max-width: 450px){
+    .opcionesdesplegables {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+
+    .menudesplegable, .menudesplegable2, .menudesplegable3, .menudesplegable4 {
+        padding: 10px;
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    .iconodesplegable {
+        display: flex;
+        align-items: center;
+        position: relative;
+    }
+
+    .desplegable-boton {
+        background-color: #00d1c7;
+        border: none;
+        padding: 5px;
+        cursor: pointer;
+        font-size: 16px;
+        color: #fff;
+        border-radius: 4px;
+    }
+
+    .desplegable-menu {
+        display: none;
+        list-style-type: none;
+        padding: 0;
+        margin: 5px 0 0 0;
+        background-color: #f0f0f0;
+        border-radius: 4px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        position: absolute;
+        top: 100%;
+        left: 0;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .desplegable-menu li {
+        padding: 10px;
+        color: #00d1c7;
+        cursor: pointer;
+        white-space: nowrap;
+    }
+    .desplegable-menu a {
+        padding: 10px;
+        color: #00d1c7;
+        cursor: pointer;
+        white-space: nowrap;
+    }
+
+    .desplegable-menu a:hover {
+        background-color: #e0e0e0;
+    }
+    .desplegable-menu li:hover {
+        background-color: #e0e0e0;
+    }
+    .carousel {
+        position: relative;
+        width: 100%;
+        overflow: hidden;
+    }
+    
+    .carousel-images {
+        display: flex;
+        transition: transform 0.5s ease-in-out;
+    }
+    
+    .carousel-image {
+        min-width: 100%;
+    }
+    
+    .carousel-image img {
+        width: 100%;
+        display: block;
+    }
+    
+    .carousel-button {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        background-color: rgba(0, 0, 0, 0.5);
+        color: white;
+        border: none;
+        padding: 10px;
+        cursor: pointer;
+        z-index: 1000;
+    }
+    
+    .carousel-button.prev {
+        left: 10px;
+    }
+    
+    .carousel-button.next {
+        right: 10px;
+    }
+    
+}
+
+
+@media screen and (min-width: 451px) and (max-width: 1030px) {
+    .opcionesdesplegables {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+
+    .menudesplegable, .menudesplegable2, .menudesplegable3, .menudesplegable4 {
+        padding: 10px;
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    .iconodesplegable {
+        display: flex;
+        align-items: center;
+        position: relative;
+    }
+
+    .desplegable-boton {
+        background-color: #00d1c7;
+        border: none;
+        padding: 5px;
+        cursor: pointer;
+        font-size: 16px;
+        color: #fff;
+        border-radius: 4px;
+    }
+
+    .desplegable-menu {
+        display: none;
+        list-style-type: none;
+        padding: 0;
+        margin: 5px 0 0 0;
+        background-color: #f0f0f0;
+        border-radius: 4px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        position: absolute;
+        top: 100%;
+        left: 0;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .desplegable-menu li {
+        padding: 10px;
+        color: #00d1c7;
+        cursor: pointer;
+        white-space: nowrap;
+    }
+    .desplegable-menu a {
+        padding: 10px;
+        color: #00d1c7;
+        cursor: pointer;
+        white-space: nowrap;
+    }
+
+    .desplegable-menu a:hover {
+        background-color: #e0e0e0;
+    }
+    .desplegable-menu li:hover {
+        background-color: #e0e0e0;
+    }
+    .carousel {
+        position: relative;
+        width: 100%;
+        overflow: hidden;
+    }
+    
+    .carousel-images {
+        display: flex;
+        transition: transform 0.5s ease-in-out;
+    }
+    
+    .carousel-image {
+        min-width: 100%;
+    }
+    
+    .carousel-image img {
+        width: 100%;
+        display: block;
+    }
+    
+    .carousel-button {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        background-color: rgba(0, 0, 0, 0.5);
+        color: white;
+        border: none;
+        padding: 10px;
+        cursor: pointer;
+        z-index: 1000;
+    }
+    
+    .carousel-button.prev {
+        left: 10px;
+    }
+    
+    .carousel-button.next {
+        right: 10px;
+    }
+    
+}
+@media screen and (min-width: 1031px){
+    .opcionesdesplegables {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+
+    .menudesplegable, .menudesplegable2, .menudesplegable3, .menudesplegable4 {
+        padding: 10px;
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    .iconodesplegable {
+        display: flex;
+        align-items: center;
+        position: relative;
+    }
+
+    .desplegable-boton {
+        background-color: #00d1c7;
+        border: none;
+        padding: 5px;
+        cursor: pointer;
+        font-size: 16px;
+        color: #fff;
+        border-radius: 4px;
+    }
+
+    .desplegable-menu {
+        display: none;
+        list-style-type: none;
+        padding: 0;
+        margin: 5px 0 0 0;
+        background-color: #f0f0f0;
+        border-radius: 4px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        position: absolute;
+        top: 100%;
+        left: 0;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .desplegable-menu li {
+        padding: 10px;
+        color: #00d1c7;
+        cursor: pointer;
+        white-space: nowrap;
+    }
+    .desplegable-menu a {
+        padding: 10px;
+        color: #00d1c7;
+        cursor: pointer;
+        white-space: nowrap;
+    }
+
+    .desplegable-menu a:hover {
+        background-color: #e0e0e0;
+    }
+    .desplegable-menu li:hover {
+        background-color: #e0e0e0;
+    }
+    .carousel {
+        position: relative;
+        width: 100%;
+        overflow: hidden;
+    }
+    
+    .carousel-images {
+        display: flex;
+        transition: transform 0.5s ease-in-out;
+    }
+    
+    .carousel-image {
+        min-width: 100%;
+    }
+    
+    .carousel-image img {
+        width: 100%;
+        display: block;
+    }
+    
+    .carousel-button {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        background-color: rgba(0, 0, 0, 0.5);
+        color: white;
+        border: none;
+        padding: 10px;
+        cursor: pointer;
+        z-index: 1000;
+    }
+    
+    .carousel-button.prev {
+        left: 10px;
+    }
+    
+    .carousel-button.next {
+        right: 10px;
+    }
+    
+}

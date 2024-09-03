@@ -1,0 +1,293 @@
+body{ 
+    margin: 100px;
+    padding-bottom: 200px;
+}
+
+.f-785532710-xjm6mfeavylww9ddvs-icon {
+    width: 231px;
+    position: absolute;
+    margin: 0 !important;
+    top: 3px;
+    left: 4.5px;
+    border-radius: 7px;
+    height: 234px;
+    object-fit: cover;
+    z-index: 0;
+}
+.imagenusuario {
+    width: 240px;
+    border-radius: 7px;
+    background-color: #ff7d96;
+    height: 240px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 10px;
+    box-sizing: border-box;
+    position: relative;
+}
+.nombreusuario {
+    position: relative;
+}
+.nombreusu {
+    width: 250px;
+    border-radius: 7px;
+    background-color: #fff;
+    border: 1px solid #00d1c7;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+.botoneditar {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 17px;
+    background-color: #abe337;
+    border: 1px solid #000;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+.botoncese {
+    border-radius: 14px;
+    background-color: #abe337;
+    border: 1px solid #000;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+.cardusuario {
+    /* position: absolute;
+    top: calc(50% - 251.5px);
+    left: -1px; */
+    margin-top: 100px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    background-color: #fff;
+    border: 1px solid #ff891d;
+    box-sizing: border-box;
+    width: 425px;
+    height: 531px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    padding: 14px 10px;
+    gap: 41px 72px;
+}
+.tu-mascota-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+.f-785532710-xjm6mfeavylww9ddvs-icon1 {
+    width: 235px;
+    position: absolute;
+    margin: 0 !important;
+    top: 2.5px;
+    left: 2.5px;
+    border-radius: 7px;
+    height: 235px;
+    object-fit: cover;
+    z-index: 0;
+}
+.masnombre {
+    width: 110px;
+    margin: 0 !important;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    box-sizing: border-box;
+    z-index: 0;
+}
+.detallesmascota {
+    width: 110px;
+    height: 46px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: relative;
+    z-index: 0;
+}
+.mascolor {
+    margin: 0 !important;
+    position: absolute;
+    top: 85.5px;
+    left: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    z-index: 1;
+}
+.masespecie {
+    width: 110px;
+    margin: 0 !important;
+    position: absolute;
+    top: 168.5px;
+    left: 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    box-sizing: border-box;
+    z-index: 2;
+}
+.masgenero {
+    margin: 0 !important;
+    position: absolute;
+    top: 252.5px;
+    left: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    z-index: 3;
+}
+.masedad {
+    margin: 0 !important;
+    position: absolute;
+    top: 335.5px;
+    left: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    z-index: 4;
+}
+.placeholder {
+    align-self: stretch;
+    border-radius: 7px;
+    background-color: #fff;
+    border: 1px solid #00d1c7;
+    box-sizing: border-box;
+    height: 40px;
+    text-align: center;
+}
+.placeholder2 {
+    align-self: stretch;
+    border-radius: 7px;
+    background-color: #fff;
+    border: 1px solid #00d1c7;
+    box-sizing: border-box;
+    height: 47px;
+    opacity: 0.7;
+  
+}
+.placeholders {
+    width: 217px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    margin-top: -4px;
+}
+.detallesmascotaf {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    gap: 21px;
+}
+.cardmascota {
+    width: 407px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    background-color: #fff;
+    border: 1px solid #ff891d;
+    box-sizing: border-box;
+    /* height: 686px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 6px 10px;
+    gap: 37px;
+    font-size: 22px;
+}
+.vector-icon {
+    width: 50px;
+    position: relative;
+    height: 50px;
+}
+.botonaadir {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    background-color: #ff7d96;
+    border: 1px solid #000;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 10px;
+}
+.frame-parent {
+/*     position: absolute; */
+   /*  top: 0px;
+    left: 572px; */
+    width: 735px;
+    height: 809px;
+    display: flex;
+    flex-direction: column;
+/*     align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center; */
+    gap: 30px 184px;
+    font-size: 45px;
+}
+.cardusuario-parent {
+   /*  width: 100%;
+    position: relative;
+    height: 809px;
+    text-align: center;
+    font-size: 22px;
+    color: #000;
+    font-family: Itim; */
+    font-family: Itim;
+    display:flex;
+     align-items: center;
+     justify-content:center;
+}
+
+
+.titulo {
+    margin: 0;
+    padding:0;
+    font-size: 50px;
+}
+
+
+@media (width <= 500px){
+    .cardusuario-parent {
+        flex-direction: column;
+    }
+
+    .titulo {
+     font-size:60px;
+    }
+}

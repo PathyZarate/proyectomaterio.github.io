@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="styles\inicio.css" />
+    <link rel="stylesheet" href="styles\formularioSesion.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Itim:wght@400&display=swap" />
+
+
+    <title>Formulario</title>
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="nombrepagina">
+            <div class="mascotopia"><a href="inicio.html">Mascotopia</a></div>
+        </div>
+        <div class="busquedaybotones">
+            <div class="busqueda">
+                <div class="placeholderbuscar">
+                    <div class="alimentos">Buscar alimentos,articulos....</div>
+                </div>
+                <div class="botonbuscar">
+                    <img class="lupa-icon" alt="" src="svg/lupa.svg">
+
+                </div>
+            </div>
+            <div class="botonescuentacarrito">
+                <div class="botoncuenta" id="botoncuenta">
+                    <div class="mi-cuenta">Mi cuenta</div>
+                    <img class="cuenta-icon" alt="" src="svg/cuenta.svg">
+
+                </div>
+                <div class="botoncarrito">
+                    <img class="carrito-icon" alt="" src="svg/carrito.svg">
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal-overlay" id="carrito-modal">
+		<div class="modal-content">
+			<button class="close-modal" id="close-carrito-modal">
+				<img class="close-icon" alt="Close" src="svg/cancelar.svg">
+			</button>
+			<div class="modal-header">
+				<h2>Carrito de Compras</h2>
+			</div>
+			<div class="modal-body" id="carrito-contenido">
+			</div>
+			<div class="modal-footer">
+				<button id="vaciar-carrito">Vaciar Carrito</button>
+				<button id="confirmar-pago">Confirmar Pago</button>
+			</div>
+		</div>
+	</div>
+
+    <div class="cardusuario-parent">
+        <div class="cardusuario">
+            <div class="imagenusuario">
+                <img class="f-785532710-xjm6mfeavylww9ddvs-icon" alt="" src="recursos\noimagen.jpg">
+            </div>
+            <div class="nombreusu" id="email">
+                <div class="nombreusuario">NombreUsuario</div>
+            </div>
+            <div class="botoneditar">
+                <div class="nombreusuario">Editar</div>
+            </div>
+            <div class="nombreusu" id="password">
+                <div class="nombreusuario">ContraseñaUsuario</div>
+            </div>
+            <div class="botoneditar">
+                <div class="nombreusuario">Editar</div>
+            </div>
+            <div class="botoncese">
+                <div class="nombreusuario">Cerrar Sesion</div>
+            </div>
+        </div>
+
+        <div class="frame-parent">
+
+            <h1 class="titulo">Tu Mascota</h1>
+
+            <form class="cardmascota" id="mascotaForm">
+                <div class="imagenusuario">
+                    <img class="f-785532710-xjm6mfeavylww9ddvs-icon1" alt="" src="recursos\noimagen.jpg" id="preview">
+                </div>
+                <div class="detallesmascotaf">
+                    
+                    <div class="placeholders">
+                        <label for="nombre">Nombre:</label>
+                        <input class="placeholder" id="nombre" type="text" placeholder="Nombre"/>
+                    
+                        <label for="color">Color:</label>
+                        <input class="placeholder" id="color" type="text" placeholder="Color"/>
+                    
+                        <label for="especie">Especie:</label>
+                        <input class="placeholder" id="especie" type="text" placeholder="Especie"/>
+                    
+                        <label for="sexo">Sexo:</label>
+                        <input class="placeholder" id="sexo" type="text" placeholder="Sexo"/>
+                    
+                        <label for="edad">Edad:</label>
+                        <input class="placeholder" id="edad" type="text" placeholder="Edad"/>
+                    
+                        <label for="imagen">Imagen:</label>
+                        <input id="imagen" type="file"/>
+                    
+                        <input type="submit" value="Enviar"/>
+                        
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="pie-de-pagina">
+            <p>&copy; 2024 Mascotopia. Todos los derechos reservados.</p>
+        </div>
+    </div>
+
+    <script src="./scripts/validacion.js"></script>
+    <script src="scripts/mostrarIS.js"></script>
+    <script src="scripts\modal.js"></script>
+    <script src="scripts\carrito.js"></script>
+    <script src="scripts\irACuenta.js"></script>
+    <script src="scripts\inicioS.js"></script>
+    <script src="scripts\carrusel.js"></script>
+    <script src="scripts\Opciones.js"></script>
+</body>
+
+</html>
